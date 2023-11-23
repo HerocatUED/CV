@@ -1,0 +1,3 @@
+python tools/train.py a_trainning/faster_rcnn_r50_fpn_1x_coco.py
+
+python tools/test.py a_trainning/faster_rcnn_r50_fpn_1x_coco.py a_trainning/0.593mAP.pth --eval mAP --eval-options iou_thr=0.5
